@@ -1,0 +1,123 @@
+h1 {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 50px;
+  line-height: 1.3;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+body {
+  height: 90vh;
+  display: flex;
+  background: linear-gradient(to top left, #30503c, #8e8f8e);
+}
+
+#container {
+  margin-top: 15%;
+  background-color: rgb(197, 193, 193);
+  width: 120%;
+  display: flex;
+  border-radius: 1% solid rgb(56, 48, 136);
+}
+
+#left-box {
+  margin-left: 3%;
+  background-color: rgb(134, 130, 130);
+  margin-top: 4%;
+  float: left;
+  height: 60%;
+  width: 40%;
+  border: 1px solid rgb(155, 158, 156);
+  padding: 10px;
+}
+
+#right-box {
+  margin-left: 5%;
+  margin-top: 4%;
+  float: right;
+  height: 60%;
+  width: 45%;
+  background: linear-gradient(to top left, #445049, #4e5250);
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#result_text {
+  text-align: center;
+}
+
+#history {
+  height: 40%;
+  overflow-y: scroll;
+}
+
+#show-total {
+  width: 95%;
+  height: 50%;
+  background-color: rgb(155, 161, 156);
+  font-size: large;
+  color: white;
+  border: 1px solid rgb(19, 43, 3);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+#show_history {
+  color: white;
+}
+
+#operation_result {
+  color: white;
+  font-size: large;
+}
+
+/* Botones estilos */
+.operation {
+  width: 100%;
+  height: 15%;
+  background-color: rgb(155, 161, 156);
+  font-size: medium;
+  color: white;
+}
+
+/* Botones estilos */
+
+.simbol {
+  margin-top: 5%;
+  width: 10%;
+  height: 10%;
+}
+
+.check {
+  font-size: medium;
+  width: 25%;
+  height: 25%;
+  margin-top: 4%;
+}
+
+#delete {
+  background-color: tomato;
+}
+
+#save {
+  margin-left: 20%;
+}
+
+.red {
+  margin-left: 17%;
+  margin-top: 20%;
+  width: 60%;
+  height: 30%;
+  background-color: rgb(165, 38, 38);
+  font-size: large;
+  color: aliceblue;
+}
+
+#change {
+  width: 15%;
+  margin-left: 28%;
+}
