@@ -1,6 +1,7 @@
 'use strict'
 
 sessionStorage.setItem("user", "Current User");
+console.log(sessionStorage);
 // Retrieve
 
 
@@ -103,7 +104,7 @@ document.querySelector('#save').addEventListener('click', function () {
     
         if (checkPantalla == false) {
 
-            alert('No ha digitado ningún monto!');
+            alert('Debe digitar una operación o un monto y presionar resultado antes de guardar');
 
         } else {
 
