@@ -1,5 +1,7 @@
 'use strict'
 
+sessionStorage.setItem("user", "Current User");
+// Retrieve
 
 
 let inputCopy = false;
@@ -92,13 +94,20 @@ document.querySelector('#result').addEventListener('click', function () {
 
     saving_result = inputCopy;
 
-    console.log(memory, typeof memory);
-    console.log(inputCopy, typeof inputCopy);
 
 });
 
 document.querySelector('#save').addEventListener('click', function () {
+    let checkPantalla = false;
+     checkPantalla = document.querySelector('.operation').value;
+    
+        if (checkPantalla == false) {
 
+            alert('No ha digitado ningún monto!');
+
+        } else {
+
+            
     let save = prompt('Resultado ' + inputCopy + ' | ' + new Date() + ' Indique el nombre de la persona');
     /*
     paragraph = document.getElementById("operation_result");
@@ -157,6 +166,12 @@ document.querySelector('#save').addEventListener('click', function () {
                 alert('Debe digitar un nombre!');
 
             }
+
+            
+        }
+
+
+
 
     // Arrays 1 fase
    
